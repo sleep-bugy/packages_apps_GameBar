@@ -14,4 +14,13 @@
   <dimen name="gamebar_item_horizontal_padding">8dp</dimen>
   <dimen name="gamebar_color_preference_normal">28dp</dimen>
   <dimen name="gamebar_color_preference_large">40dp</dimen>
+  <!-- Expressive Slider Dimensions -->
+  <dimen name="settingslib_expressive_slider_track_height">4dp</dimen>
+  <dimen name="settingslib_expressive_slider_track_inside_corner_size">2dp</dimen>
+  <dimen name="settingslib_expressive_slider_track_stop_indicator_size">4dp</dimen>
+  <dimen name="settingslib_expressive_slider_thumb_width">20dp</dimen>
+  <dimen name="settingslib_expressive_slider_thumb_height">20dp</dimen>
+  <dimen name="settingslib_expressive_slider_thumb_elevation">1dp</dimen>
+  <dimen name="settingslib_expressive_slider_thumb_track_gap_size">6dp</dimen>
+  <dimen name="settingslib_expressive_slider_tick_radius">1dp</dimen>
 </resources>

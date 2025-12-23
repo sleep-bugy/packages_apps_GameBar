@@ -184,55 +184,40 @@ public class PartsCustomSeekBarPreference extends Preference implements Slider.O
 
         // Set up slider color
         mSlider.setTrackActiveTintList(getContext().getColorStateList(
-                com.android.settingslib.widget.preference.slider.R.color
-                .settingslib_expressive_color_slider_track_active));
+                R.color.settingslib_expressive_color_slider_track_active));
         mSlider.setTrackInactiveTintList(getContext().getColorStateList(
-                com.android.settingslib.widget.preference.slider.R.color
-                .settingslib_expressive_color_slider_track_inactive));
+                R.color.settingslib_expressive_color_slider_track_inactive));
         mSlider.setThumbTintList(getContext().getColorStateList(
-                com.android.settingslib.widget.preference.slider.R.color
-                .settingslib_expressive_color_slider_thumb));
+                R.color.settingslib_expressive_color_slider_thumb));
         mSlider.setHaloTintList(getContext().getColorStateList(
-                com.android.settingslib.widget.preference.slider.R.color
-                .settingslib_expressive_color_slider_halo));
+                R.color.settingslib_expressive_color_slider_halo));
         mSlider.setTickActiveTintList(getContext().getColorStateList(
-                com.android.settingslib.widget.preference.slider.R.color
-                .settingslib_expressive_color_slider_track_active));
+                R.color.settingslib_expressive_color_slider_track_active));
         mSlider.setTickInactiveTintList(getContext().getColorStateList(
-                com.android.settingslib.widget.preference.slider.R.color
-                .settingslib_expressive_color_slider_track_inactive));
+                R.color.settingslib_expressive_color_slider_track_inactive));
 
         // Set up slider size
         if (SettingsThemeHelper.isExpressiveTheme(getContext())) {
             Resources res = getContext().getResources();
             mSlider.setTrackHeight(res.getDimensionPixelSize(
-                    com.android.settingslib.widget.preference.slider.R.dimen
-                    .settingslib_expressive_slider_track_height));
+                    R.dimen.settingslib_expressive_slider_track_height));
             mSlider.setTrackInsideCornerSize(res.getDimensionPixelSize(
-                    com.android.settingslib.widget.preference.slider.R.dimen
-                    .settingslib_expressive_slider_track_inside_corner_size));
+                    R.dimen.settingslib_expressive_slider_track_inside_corner_size));
             mSlider.setTrackStopIndicatorSize(res.getDimensionPixelSize(
-                    com.android.settingslib.widget.preference.slider.R.dimen
-                    .settingslib_expressive_slider_track_stop_indicator_size));
+                    R.dimen.settingslib_expressive_slider_track_stop_indicator_size));
             mSlider.setThumbWidth(res.getDimensionPixelSize(
-                    com.android.settingslib.widget.preference.slider.R.dimen
-                    .settingslib_expressive_slider_thumb_width));
+                    R.dimen.settingslib_expressive_slider_thumb_width));
             mSlider.setThumbHeight(res.getDimensionPixelSize(
-                    com.android.settingslib.widget.preference.slider.R.dimen
-                    .settingslib_expressive_slider_thumb_height));
+                    R.dimen.settingslib_expressive_slider_thumb_height));
             mSlider.setThumbElevation(res.getDimensionPixelSize(
-                    com.android.settingslib.widget.preference.slider.R.dimen
-                    .settingslib_expressive_slider_thumb_elevation));
+                    R.dimen.settingslib_expressive_slider_thumb_elevation));
             mSlider.setThumbStrokeWidth(0);
             mSlider.setThumbTrackGapSize(res.getDimensionPixelSize(
-                    com.android.settingslib.widget.preference.slider.R.dimen
-                    .settingslib_expressive_slider_thumb_track_gap_size));
+                    R.dimen.settingslib_expressive_slider_thumb_track_gap_size));
             mSlider.setTickActiveRadius(res.getDimensionPixelSize(
-                    com.android.settingslib.widget.preference.slider.R.dimen
-                    .settingslib_expressive_slider_tick_radius));
+                    R.dimen.settingslib_expressive_slider_tick_radius));
             mSlider.setTickInactiveRadius(res.getDimensionPixelSize(
-                    com.android.settingslib.widget.preference.slider.R
-                    .dimen.settingslib_expressive_slider_tick_radius));
+                    R.dimen.settingslib_expressive_slider_tick_radius));
         }
 
         mValueTextView = (TextView) holder.findViewById(R.id.value);
