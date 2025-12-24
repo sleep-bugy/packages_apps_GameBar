@@ -8,6 +8,7 @@
 
     <!-- GameBar -->
     <string name="app_title">GameBar</string>
+    <string name="settings_entry_summary">Overlay device monitor for gaming</string>
     <string name="tile_add">Add tile</string>
     <string name="tile_added">Tile added</string>
     <string name="tile_not_added">Tile not added</string>

@@ -78,8 +78,8 @@
                 android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.apps" />
             <meta-data
-                android:name="com.android.settings.icon"
-                android:resource="@drawable/ic_gamebar" />    
+                android:name="com.android.settings.summary"
+                android:resource="@string/settings_entry_summary" />
         </activity>
 
         <!-- GameBar Overlay Tile Service -->
